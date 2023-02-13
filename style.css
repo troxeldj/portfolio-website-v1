@@ -247,6 +247,10 @@ nav a:hover {
   border-radius: 25px;
 }
 
+#projects article:hover {
+  cursor:pointer;
+}
+
 /* Footer Styles */
 #footer {
   padding: 4rem 0;
@@ -271,6 +275,7 @@ nav a:hover {
 
 #footer p:nth-of-type(2) {
   margin-top: 30px;
+  font-size: 0.8rem;
 }
 
 
