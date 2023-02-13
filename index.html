@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dillon Troxell - Portfolio Site</title>
+    <link rel="icon" type="image/x-icon" href="./img/favicon-16x16.png" />
+    <script
+      src="https://kit.fontawesome.com/563459a10a.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxygen&family=Oxygen+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  </head>
+  <body>
+    <!-- Nav Section -->
+    <nav id="nav">
+      <ul>
+        <li>
+          <h1>
+            <a href="#nav">
+              <span class="fa-solid fa-code"></span>
+              Dillon Troxell
+            </a>
+          </h1>
+        </li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/dillon-troxell-8186b9222"
+            target="_blank"
+            ><span class="fa-brands fa-linkedin" aria-hidden="true"></span>
+            <span class="sr-only">LinkedIn</span></a
+          >
+        </li>
+        <li>
+          <a href="https://github.com/dillontroxell4419" target="_blank">
+            <span class="fa-brands fa-github" aria-hidden="true"></span>
+            <span class="sr-only">Github</span></a
+          >
+        </li>
+        <li><a href="#" class="button">Resume</a></li>
+      </ul>
+    </nav>
+
+    <!-- Intro Section -->
+    <section id="intro">
+      <p class="name">Hi, my name is <span>Dillon Troxell.</span></p>
+      <div class="typwriter-container">
+        <h2 class="typewriter">Coding and havin' fun!</h2>
+      </div>
+      <p>
+        I'm a Computer Science Student specializing in:
+        <span class="technologies"
+          >HTML, CSS, Javascript, Python, and C++.</span
+        >
+      </p>
+      <p>
+        I am also familiar with:
+        <span class="technologies">React, Express, Node, MongoDB, EJS, Windows Server, Lansweeper
+          , Powershell, Computer Hardware Assembly
+        </span>
+      </p>
+      <p>
+        Currently, I'm working at Metalex Manufacturing in Cincinnati, OH as an
+        IT Co-op.
+      </p>
+    </section>
+
+    <div class="gradient"></div>
+
+    <!-- Project Section -->
+    <div class="section-blue">
+      <section id="projects">
+        <h2>Projects I'm proud of</h2>
+        <article>
+          <div class="projects-text">
+            <h3>Assault Cube Trainer</h3>
+            <p class="blackbox">
+              Description: This is a trainer (or cheat) for an FPS game called
+              assault cube. In this project, game memory addresses and offsets
+              were found using cheat engine and x86dbg. After finding these
+              offsets, win32 API functions were called to obtain a process ID,
+              process handle, and read and write to the processes space in
+              virtual memory. With this, we are able to do anything we want.
+              Unlimited health, unlmited armor; we can even call in-game
+              functions!
+            </p>
+            <h4>Technologies Used:</h4>
+            <ul>
+              <li>Cheat Engine</li>
+              <li>x86dbg</li>
+              <li>C</li>
+              <li>C++</li>
+              <li>x86 Assembly</li>
+            </ul>
+          </div>
+          <img src="./img/assault_cube.png" />
+        </article>
+
+        <article class="reverse">
+          <div class="projects-text">
+            <h3>Reactul8er</h3>
+            <p class="blackbox">
+              Description: This was a calculator that I made using react. Pieces
+              of the calculator such as the screen and buttons were seperated
+              into react components. These components were combined to form the
+              end product. I opted to use newer "functional" components over the
+              older "class" components because I prefer that syntax. A material,
+              gradient background ties in the look of the calculator for an
+              effective, simple tool!
+            </p>
+            <h4>Technologies Used:</h4>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Javascript</li>
+              <li>React</li>
+            </ul>
+          </div>
+          <img src="./img/reactul8er.png" />
+        </article>
+
+        <article>
+          <div class="projects-text">
+            <h3>Assault Cube Trainer</h3>
+            <p class="blackbox">
+              Description: This was one of my first personal projects that I
+              made. It's a blackjack game in python. I made this game as a small
+              project during my first year python programming course. The CPU or
+              computer you play against, is setup to pick random cards out of
+              the deck. With this project I wanted to have the player, dealer,
+              deck, and table setup as different objects. This project
+              demonstrates an understanding of object-oriented programming
+              techniques as well as intermediate python (dunder methods,
+              inheritance, etc.)
+            </p>
+            <h4>Technologies Used:</h4>
+            <ul>
+              <li>Python</li>
+            </ul>
+          </div>
+          <img src="./img/pygame_blackjack.png" />
+        </article>
+      </section>
+    </div>
+
+    <div class="gradient"></div>
+
+    <!-- Contact Section -->
+    <div class="section-mag">
+      <section id="contact">
+        <h3>Contact me</h3>
+        <p>
+          I am always interested in new opportunities. Please don't heisitate to
+          contact me here.
+        </p>
+        <p>
+          <a href="mailto:troxeldj@mail.uc.edu" class="button" target="_blank"
+            >Email Me</a
+          >
+        </p>
+      </section>
+    </div>
+
+    <div class="gradient"></div>
+
+    <!-- Footer Section -->
+    <footer id="footer">
+      <p>Dillon Troxell • Student/Developer</p>
+      <div class="footer-icons">
+        <a href="https://github.com/dillontroxell4419" target="_blank"
+          ><span class="fa-brands fa-square-github"></span
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/dillon-troxell-8186b9222"
+          target="_blank"
+          ><span class="fa-brands fa-linkedin"></span
+        ></a>
+        <a href="mailto:troxeldj@mail.uc.edu" target="_blank"
+          ><span class="fa-solid fa-envelope"></span
+        ></a>
+      </div>
+      <p>© 2023 Dillon Troxell. All Rights Reserved</p>
+    </footer>
+  </body>
+</html>
